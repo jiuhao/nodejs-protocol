@@ -1,0 +1,11 @@
+{
+  "name": "tcp_ip",
+  "version": "1.0.0",
+  "description": "a tcp_ip study",
+  "author": "石浩 <1281875047@qq.com>",
+  "private": true,
+  "scripts": {
+  },
+  "dependencies": {
+  }
+}
