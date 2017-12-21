@@ -1,6 +1,7 @@
 const net = require('net');
 const PORT = 8124;
 
+//客户端列表
 let clientList = [];
 
 const server = net.createServer();
@@ -27,6 +28,7 @@ server.on('error', (err)=> {
     console.log(`服务端异常信息：${err}`);
     throw err;
 });
+
 server.listen(PORT, '0.0.0.0', ()=> {
     console.log(`服务器已启动:${JSON.stringify(server.address())}`);
 });
