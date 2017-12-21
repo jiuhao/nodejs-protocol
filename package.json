@@ -1,8 +1,8 @@
 {
-  "name": "tcp_ip",
+  "name": "nodejs-protocal",
   "version": "1.0.0",
-  "description": "a tcp_ip study",
-  "author": "石浩 <1281875047@qq.com>",
+  "description": "protocal study",
+  "author": "石浩 <haozi.shi@foxmail.com>",
   "private": true,
   "scripts": {
   },
